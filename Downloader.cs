@@ -154,7 +154,7 @@ namespace CSC
 
                 dto.Cities.RemoveRange(0, countryAllCities.Count);
             }
-            Console.WriteLine($"Saving {list.Count} countries.........................");
+            Console.WriteLine($@"Wait... /\/\/\/\/\/\/\/\/\/\/\....Saving {list.Count} countries......./\/\/\/\/\/\/\/\/\/\/\/\/");
 
             foreach (var chunck50 in list.Chunk(50))
             {
@@ -163,7 +163,7 @@ namespace CSC
             }
 
 
-            Console.WriteLine($"Saved all countries and their data.........................");
+            Console.WriteLine($"Saved all countries and their data....................-(@!@)-");
         }
         private static async Task<int> Save<T>(List<T> response) where T : class
         {
